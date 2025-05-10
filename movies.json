@@ -21,5 +21,15 @@
       "trailer_url": "https://www.youtube.com/embed/v-94Snw-H4o?si=hxuXTUhea9xJ73vb",
       "download_url": "https://gofile.io/d/xWU6pA"
     }
+  ],
+  "webseries": [
+    {
+      "id": "Dark",
+      "title": "Dark S01 E01",
+      "poster": "assets/.jpg",
+      "trailer_url": "https://www.youtube.com/embed/ESEUoa-mz2c?si=ETOpm182Za_zl0T4",
+      "download_url": "https://gofile.io/d/4iiR5N"
+    }
+     
   ]
 }
