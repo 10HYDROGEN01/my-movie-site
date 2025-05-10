@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My GreenFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>卍 FUHRER MOVIES 卍 </h1>
+  <div class="movie-grid" id="movies"></div>
+
+  <script>
+    fetch('movies.json')
+      .then(res => res.json())
+      .then(data => {
+        const grid = document.getElementById("movies");
+        data.movies.forEach(movie => {
+          const card = document.createElement("div");
+          card.className = "movie-card";
+          card.innerHTML = `
+            <a href="movie.html?id=${movie.id}">
+              <img src="${movie.poster}" alt="${movie.title}">
+              <div class="movie-card-title">${movie.title}</div>
+            </a>
+          `;
+          grid.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>

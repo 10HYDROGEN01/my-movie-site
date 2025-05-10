@@ -1,0 +1,18 @@
+{
+  "movies": [
+    {
+      "id": "inception",
+      "title": "Inception",
+      "poster": "assets/inception.jpg",
+      "trailer_url": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "download_url": "https://gofile.io/d/kn3Syw"
+    },
+    {
+      "id": "darkknight",
+      "title": "The Dark Knight",
+      "poster": "assets/darkknight.jpg",
+      "trailer_url": "https://www.youtube.com/embed/EXeTwQWrcwY?si=JpQpKSKbi38KR3to",
+      "download_url": "https://gofile.io/d/d/kn3Syw"
+    }
+  ]
+}
