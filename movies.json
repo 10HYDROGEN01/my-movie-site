@@ -1,0 +1,68 @@
+{
+  "movies": [
+    {
+      "id": "inception",
+      "title": "Inception",
+      "type": "movie",
+      "poster": "assets/inception.jpg",
+      "trailer_url": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "download_url": "https://gofile.io/d/A3TZ3k"
+    },
+    {
+      "id": "darkknight",
+      "title": "The Dark Knight",
+      "type": "movie",
+      "poster": "assets/darkknight.jpg",
+      "trailer_url": "https://www.youtube.com/embed/EXeTwQWrcwY?si=JpQpKSKbi38KR3to",
+      "download_url": "https://gofile.io/d/ba0kcv"
+    },
+    {
+      "id": "thunderbolts",
+      "title": "Thunderbolts",
+      "type": "movie",
+      "poster": "assets/thunderbolts.jpg",
+      "trailer_url": "https://www.youtube.com/embed/v-94Snw-H4o?si=hxuXTUhea9xJ73vb",
+      "download_url": "https://gofile.io/d/xWU6pA"
+    },
+    {
+      "id": "breakingbad",
+      "title": "Breaking Bad S01 E01",
+      "type": "series",
+      "poster": "assets/breakingbad.jpg",
+      "trailer_url": "https://www.youtube.com/embed/HhesaQXLuRY",
+      "download_url": "https://gofile.io/d/28Aa0u"
+    },
+    {
+      "id": "strangerthings",
+      "title": "Stranger Things S01 E01",
+      "type": "series",
+      "poster": "assets/strangerthing.jpg",
+      "trailer_url": "https://www.youtube.com/embed/b9EkMc79ZSU",
+      "download_url": "https://gofile.io/d/yQMtlZ"
+    },
+    {
+      "id": "gameofthrones",
+      "title": "Game of Thrones",
+      "type": "series",
+      "poster": "assets/gameofthrone.jpg",
+      "trailer_url": "https://www.youtube.com/embed/bjqEWgDVPe0?si=PdgInJ5itIHT_DdZ",
+      "download_url": "https://gofile.io/d/placeholder1"
+    },
+    {
+      "id": "thewitcher",
+      "title": "The Witcher S01 E01",
+      "type": "series",
+      "poster": "assets/witcher.jpg",
+      "trailer_url": "https://www.youtube.com/embed/ndl1W4ltcmg",
+      "download_url": "https://gofile.io/d/osHGsx"
+    },
+        {
+      "id": "Dark",
+      "title": "The Dark S01 E01",
+      "type": "series",
+      "poster": "assets/dark.jpg",
+      "trailer_url": "https://www.youtube.com/embed/ESEUoa-mz2c?si=2jxJ_R1xkeGeByg2",
+      "download_url": "https://gofile.io/d/4iiR5N"
+    }
+  ]
+}
