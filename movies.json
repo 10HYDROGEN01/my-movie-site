@@ -63,6 +63,14 @@
       "poster": "assets/dark.jpg",
       "trailer_url": "https://www.youtube.com/embed/ESEUoa-mz2c?si=2jxJ_R1xkeGeByg2",
       "download_url": "https://gofile.io/d/4iiR5N"
+    },
+    {
+      "id": "Caption america brave world",
+      "title": "Captain America: Brave New World",
+      "type": "movie",
+      "poster": "assets/braveworld.jpg",
+      "trailer_url": "https://www.youtube.com/embed/1pHDWnXmK7Y?si=JqOyF0pIc215pGo-",
+      "download_url": "https://gofile.io/d/Y4XIA0"
     }
   ]
 }
