@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.png" alt="Fuhrer Entertainment Logo" class="logo-img"></a>
+    </div>
+    <div class="hamburger">☰</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="series.html">Web Series</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search Web Series...">
+  </div>
+  <h1 class="page-title">卍 FUHRER WEB SERIES 卍</h1>
+  <div class="movie-grid" id="web-series">
+    <!-- Series cards will be inserted here by JavaScript -->
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

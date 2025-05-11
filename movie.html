@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Watch Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/logo.png" alt="Fuhrer Entertainment Logo" class="logo-img"></a>
+    </div>
+    <div class="hamburger">☰</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="series.html">Web Series</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="movie-container">Loading...</div>
+
+  <script>
+    const id = new URLSearchParams(location.search).get('id');
+    fetch('movies.json')
+      .then(res => res.json())
+      .then(data => {
+        const movie = data.movies.find(m => m.id === id);
+        if (!movie) return document.getElementById("movie-container").innerText = "Content not found.";
+
+        document.getElementById("movie-container").innerHTML = `
+          <h1>${movie.title}</h1>
+          <h3>TRAILER</h3>
+          <div class="trailer-container">
+            <iframe src="${movie.trailer_url}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <a href="${movie.download_url}" target="_blank">⬇ Download ${movie.type === 'movie' ? 'Movie' : 'Series'}</a>
+        `;
+      })
+      .catch(err => {
+        document.getElementById("movie-container").innerText = "Error loading content data. Check the console for details.";
+        console.error(err);
+      });
+  </script>
+
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
