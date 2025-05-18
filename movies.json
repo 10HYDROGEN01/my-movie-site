@@ -62,7 +62,7 @@
       "type": "series",
       "poster": "assets/dark.jpg",
       "trailer_url": "https://www.youtube.com/embed/ESEUoa-mz2c?si=2jxJ_R1xkeGeByg2",
-      "download_url": "https://gofile.io/d/4iiR5N"
+      "download_url": "https://gofile.io/d/oOm3iZ"
     },
     {
       "id": "Caption america brave world",
@@ -80,7 +80,32 @@
       "poster": "assets/peaky.jpg",
       "trailer_url": "https://www.youtube.com/embed/X3PGOaEfCmQ?si=INJvm6Itx8YV-yYg",
       "download_url": "https://gofile.io/d/TLeH77"
+    },
+    {
+      "id": "Kesari_Chapter_2",
+      "title": "Kesari_Chapter_2 ",
+      "type": "movie",
+      "poster": "assets/kesari.jpg",
+      "trailer_url": "https://jolls346dae.com/play/tt3562110",
+      "download_url": "https://gofile.io/d/pFD1ly"
+    },
+    {
+      "id": "Looper",
+      "title": "Looper 2012 ",
+      "type": "movie",
+      "poster": "assets/looper.jpg",
+      "trailer_url": "https://www.youtube.com/embed/8Ltpa4QmnuU?si=S4OMlIYshMjU4IaN",
+      "download_url": "https://gofile.io/d/jZ0JFM"
+    },
+    {
+      "id": "Abraham_Lincoln_Vampire_Hunter_2012",
+      "title": "Abraham_Lincoln_Vampire_Hunter_2012",
+      "type": "movie",
+      "poster": "assets/abhram.jpg",
+      "trailer_url": "https://www.youtube.com/embed/VPTdlrN4AFI?si=HtlcipNxglgHeDTZ",
+      "download_url": "https://gofile.io/d/Qz6DLY"
     }
+    
  
   
   ]
