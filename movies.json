@@ -136,7 +136,32 @@
       "poster": "assets/godfather.jpg",
       "trailer_url": "https://www.youtube.com/embed/UaVTIH8mujA?si=abKryiytkgvMxUNH",
       "download_url": "https://gofile.io/d/vhP9XY"
+    },
+                {
+      "id": "The_Shawshank_Redemption_(1994)_",
+      "title": "The_Shawshank_Redemption_(1994)",
+      "type": "movie",
+      "poster": "assets/Shawshank.jpg",
+      "trailer_url": "https://www.youtube.com/embed/PLl99DlL6b4?si=cMcBxal7_ZqeGReM",
+      "download_url": "https://gofile.io/d/DJtyvB"
+    },
+                {
+      "id": "127.Hours.2010.",
+      "title": "127.Hours.2010.",
+      "type": "movie",
+      "poster": "assets/127.Hours.2010.jpg",
+      "trailer_url": "https://www.youtube.com/embed/sHkh34UkWTY?si=QCp1k_dlJS0hmoXk",
+      "download_url": "https://gofile.io/d/fYFi7j"
+    },
+                    {
+      "id": "Nymphomaniac Directors Cut Vol 1",
+      "title": "Nymphomaniac Directors Cut Vol 1",
+      "type": "movie",
+      "poster": "assets/Nymphomaniac.jpg",
+      "trailer_url": "https://www.youtube.com/embed/Gdxzno5Xp2Y?si=1a5qWIxbe3s4PSGU",
+      "download_url": "https://gofile.io/d/DbQxgP"
     }
+    
  
   
   ]
