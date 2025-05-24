@@ -42,11 +42,11 @@
     },
     {
       "id": "gameofthrones",
-      "title": "Game of Thrones",
+      "title": "Game of Thrones S01 ALL COMPLETE",
       "type": "series",
       "poster": "assets/gameofthrone.jpg",
       "trailer_url": "https://www.youtube.com/embed/bjqEWgDVPe0?si=PdgInJ5itIHT_DdZ",
-      "download_url": "https://gofile.io/d/placeholder1"
+      "download_url": "https://gofile.io/d/Z51fhH"
     },
     {
       "id": "thewitcher",
@@ -160,7 +160,35 @@
       "poster": "assets/Nymphomaniac.jpg",
       "trailer_url": "https://www.youtube.com/embed/Gdxzno5Xp2Y?si=1a5qWIxbe3s4PSGU",
       "download_url": "https://gofile.io/d/DbQxgP"
+    },
+     {
+      "id": "Prison Break",
+      "title": "Prison Break English Complete S01 ",
+      "type": "series",
+      "poster": "assets/PrisonBreak.jpg",
+      "trailer_url": "https://www.youtube.com/embed/AL9zLctDJaU?si=fBBBar1THjeItXTZ",
+      "download_url": "https://gofile.io/d/pDJkWl"
+    },
+                        {
+      "id": "Chhaava",
+      "title": "Chhaava HD ",
+      "type": "movie",
+      "poster": "assets/Chhaava.jpg",
+      "trailer_url": "https://www.youtube.com/embed/77vRyWNqZjM?si=8tLkWvtUGgQnXtVq",
+      "download_url": "https://gofile.io/d/HeU6Cx"
+    },
+    {
+      "id": "Raid 2",
+      "title": "Raid 2 HD ",
+      "type": "movie",
+      "poster": "assets/raid.jpg",
+      "trailer_url": "https://www.youtube.com/embed/kQF1gl7nLaU?si=wvU13E4YC14DHOt3",
+      "download_url": "https://gofile.io/d/ocNyPL"
     }
+    
+    
+    
+    
     
  
   
