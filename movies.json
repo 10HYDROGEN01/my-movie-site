@@ -232,7 +232,16 @@
       "poster": "assets/2025-06-23 215436.png",
       "trailer_url": "https://www.youtube.com/embed/yQf53p2hJgc?si=OjuvcSBJgMxisHGs",
       "download_url": "https://gofile.io/d/CIP5F1"
-    }
+    },
+        {
+      "id": "F1",
+      "title": "F1",
+      "type": "movie",
+      "poster": "assets/f1.jpg",
+      "trailer_url": "https://www.youtube.com/embed/69ffwl-8pCU?si=cHRcnjzsyKFgliCw",
+      "download_url": "https://gofile.io/d/HbH0CN"
+    } 
+    
     
     
     
